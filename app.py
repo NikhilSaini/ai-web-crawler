@@ -6,7 +6,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Read API key from Streamlit secrets
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("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"))
 
 visited_urls = set()
 
