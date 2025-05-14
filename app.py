@@ -4,7 +4,7 @@ from urllib.parse import urljoin, urlparse
 import openai
 import streamlit as st
 
-openai.api_key = "YOUR_OPENAI_API_KEY"  # Replace this with your API key
+openai.api_key = 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  # Replace this with your API key
 
 visited_urls = set()
 
